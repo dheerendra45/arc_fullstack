@@ -10,11 +10,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+bolt
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
+.bolt
 .vscode/*
 !.vscode/extensions.json
 .idea
