@@ -1,7 +1,7 @@
 // src/services/AuthService.js
 import axios from 'axios';
 
-const API_URL =  'http://localhost:5000/api';
+const API_URL =  'https://arc-fullstack.onrender.com/api';
 
 export default {
   verifyToken: async (token) => {
